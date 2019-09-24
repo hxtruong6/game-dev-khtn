@@ -1,0 +1,1834 @@
+fileFormatVersion: 2
+guid: 4f2c175fb9abadf4a80452b6a7abf97d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ranger_MachineGun_idle_0
+    21300002: Ranger_MachineGun_idle_1
+    21300004: Ranger_MachineGun_idle_2
+    21300006: Ranger_MachineGun_run_0
+    21300008: Ranger_MachineGun_run_1
+    21300010: Ranger_MachineGun_run_2
+    21300012: Ranger_MachineGun_run_3
+    21300014: Ranger_MachineGun_run_4
+    21300016: Ranger_MachineGun_run_5
+    21300018: Ranger_MachineGun_run_6
+    21300020: Ranger_MachineGun_jumpstart_0
+    21300022: Ranger_MachineGun_jumpstart_1
+    21300024: Ranger_MachineGun_jumpstart_2
+    21300026: Ranger_MachineGun_jumpstart_3
+    21300028: Ranger_MachineGun_jumpstart_4
+    21300030: Ranger_MachineGun_jump_0
+    21300032: Ranger_MachineGun_jump_1
+    21300034: Ranger_MachineGun_jump_2
+    21300036: Ranger_MachineGun_jump_3
+    21300038: Ranger_MachineGun_jump_4
+    21300040: Ranger_MachineGun_jumpend_0
+    21300042: Ranger_MachineGun_jumpend_1
+    21300044: Ranger_MachineGun_jumpend_2
+    21300046: Ranger_MachineGun_shoot_0
+    21300048: Ranger_MachineGun_shoot_1
+    21300050: Ranger_MachineGun_shoot_2
+    21300052: Ranger_MachineGun_shoot_3
+    21300054: Ranger_MachineGun_shoot_4
+    21300056: Ranger_MachineGun_shoot_5
+    21300058: Ranger_MachineGun_shoot_6
+    21300060: Ranger_MachineGun_die_0
+    21300062: Ranger_MachineGun_die_1
+    21300064: Ranger_MachineGun_die_2
+    21300066: Ranger_MachineGun_die_3
+    21300068: Ranger_MachineGun_die_4
+    21300070: Ranger_MachineGun_die_5
+    21300072: Ranger_MachineGun_die_6
+    21300074: Ranger_MachineGun_die_7
+    21300076: Ranger_MachineGun_die_8
+    21300078: Ranger_MachineGun_die_9
+    21300080: Ranger_MachineGun_die_10
+    21300082: Ranger_MachineGun_hit_0
+    21300084: Ranger_MachineGun_hit_1
+    21300086: Ranger_MachineGun_hit_2
+    21300088: Ranger_MachineGun_hit_3
+    21300090: Ranger_SpriteSheet_MachineGun_0
+    21300092: Ranger_SpriteSheet_MachineGun_1
+    21300094: Ranger_SpriteSheet_MachineGun_2
+    21300096: Ranger_SpriteSheet_MachineGun_3
+    21300098: Ranger_SpriteSheet_MachineGun_4
+    21300100: Ranger_SpriteSheet_MachineGun_5
+    21300102: Ranger_SpriteSheet_MachineGun_6
+    21300104: Ranger_SpriteSheet_MachineGun_7
+    21300106: Ranger_SpriteSheet_MachineGun_8
+    21300108: Ranger_SpriteSheet_MachineGun_9
+    21300110: Ranger_SpriteSheet_MachineGun_10
+    21300112: Ranger_SpriteSheet_MachineGun_11
+    21300114: Ranger_SpriteSheet_MachineGun_12
+    21300116: Ranger_SpriteSheet_MachineGun_13
+    21300118: Ranger_SpriteSheet_MachineGun_14
+    21300120: Ranger_SpriteSheet_MachineGun_15
+    21300122: Ranger_SpriteSheet_MachineGun_16
+    21300124: Ranger_SpriteSheet_MachineGun_17
+    21300126: Ranger_SpriteSheet_MachineGun_18
+    21300128: Ranger_SpriteSheet_MachineGun_19
+    21300130: Ranger_SpriteSheet_MachineGun_20
+    21300132: Ranger_SpriteSheet_MachineGun_21
+    21300134: Ranger_SpriteSheet_MachineGun_22
+    21300136: Ranger_SpriteSheet_MachineGun_23
+    21300138: Ranger_SpriteSheet_MachineGun_24
+    21300140: Ranger_SpriteSheet_MachineGun_25
+    21300142: Ranger_SpriteSheet_MachineGun_26
+    21300144: Ranger_SpriteSheet_MachineGun_27
+    21300146: Ranger_SpriteSheet_MachineGun_28
+    21300148: Ranger_SpriteSheet_MachineGun_29
+    21300150: Ranger_SpriteSheet_MachineGun_30
+    21300152: Ranger_SpriteSheet_MachineGun_31
+    21300154: Ranger_SpriteSheet_MachineGun_32
+    21300156: Ranger_SpriteSheet_MachineGun_33
+    21300158: Ranger_SpriteSheet_MachineGun_34
+    21300160: Ranger_SpriteSheet_MachineGun_35
+    21300162: Ranger_SpriteSheet_MachineGun_36
+    21300164: Ranger_SpriteSheet_MachineGun_37
+    21300166: Ranger_SpriteSheet_MachineGun_38
+    21300168: Ranger_SpriteSheet_MachineGun_39
+    21300170: Ranger_SpriteSheet_MachineGun_40
+    21300172: Ranger_SpriteSheet_MachineGun_41
+    21300174: Ranger_SpriteSheet_MachineGun_42
+    21300176: Ranger_SpriteSheet_MachineGun_43
+    21300178: Ranger_SpriteSheet_MachineGun_44
+    21300180: Ranger_SpriteSheet_MachineGun_45
+    21300182: Ranger_SpriteSheet_MachineGun_46
+    21300184: Ranger_SpriteSheet_MachineGun_47
+    21300186: Ranger_SpriteSheet_MachineGun_48
+    21300188: Ranger_SpriteSheet_MachineGun_49
+    21300190: Ranger_SpriteSheet_MachineGun_50
+    21300192: Ranger_SpriteSheet_MachineGun_51
+    21300194: Ranger_SpriteSheet_MachineGun_52
+    21300196: Ranger_SpriteSheet_MachineGun_53
+    21300198: Ranger_SpriteSheet_MachineGun_54
+    21300200: Ranger_SpriteSheet_MachineGun_55
+    21300202: Ranger_SpriteSheet_MachineGun_56
+    21300204: Ranger_SpriteSheet_MachineGun_57
+    21300206: Ranger_SpriteSheet_MachineGun_58
+    21300208: Ranger_SpriteSheet_MachineGun_59
+    21300210: Ranger_SpriteSheet_MachineGun_60
+    21300212: Ranger_SpriteSheet_MachineGun_61
+    21300214: Ranger_SpriteSheet_MachineGun_62
+    21300216: Ranger_SpriteSheet_MachineGun_63
+    21300218: Ranger_SpriteSheet_MachineGun_64
+    21300220: Ranger_SpriteSheet_MachineGun_65
+    21300222: Ranger_SpriteSheet_MachineGun_66
+    21300224: Ranger_SpriteSheet_MachineGun_67
+    21300226: Ranger_SpriteSheet_MachineGun_68
+    21300228: Ranger_SpriteSheet_MachineGun_69
+    21300230: Ranger_SpriteSheet_MachineGun_70
+    21300232: Ranger_SpriteSheet_MachineGun_71
+    21300234: Ranger_SpriteSheet_MachineGun_72
+    21300236: Ranger_SpriteSheet_MachineGun_73
+    21300238: Ranger_SpriteSheet_MachineGun_74
+    21300240: Ranger_SpriteSheet_MachineGun_75
+    21300242: Ranger_SpriteSheet_MachineGun_76
+    21300244: Ranger_SpriteSheet_MachineGun_77
+    21300246: Ranger_SpriteSheet_MachineGun_78
+    21300248: Ranger_SpriteSheet_MachineGun_79
+    21300250: Ranger_SpriteSheet_MachineGun_80
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 567
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618e4c9b57b5df4d8f99bd9133577e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 567
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c37af04e55953e47a2b56e794e921db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 567
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d10300865dbf3428c9f23db2798ba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 501
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b1ce00bf35d814bac118b06d2d40c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 499
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff08215d33e47ac40a7272cfd0bb9fdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 499
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6645c03ee856c054fa9e64d442c13ea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 499
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a951b6d291ac1324b9e3e50db208451b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 501
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbce05820c10f4546b9d117c506d745d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_8
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 501
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe2eb8a562fb16409d464164c7c6acc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 499
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f151b79c360b2e41bd7d149ad847fb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 428
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef335315b9b7dc940896d23036bf1c98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 429
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551dd1f81ca877e4b878c2d09cf43ebd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 429
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbdef937a9c4d04992b5835ba5a5e10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 428
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae6290451b1024ea5cb19da7770c93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 429
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a661fd593dc5ac4eb0617f540be5ea9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 362
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe3ec9b36fa72a499195ad2bf1db02b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 362
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28f1fbfa65da8d4e890f0ccddac6940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 362
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149aaa68b8455449951a6796b3ad982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_18
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 362
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbdc9746260ae649aec49eeb488f057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_19
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 362
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ad7c2e26a0984b87a54fd9313fe21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 289
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d3de409d1241647b8e7e056cfa56b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 287
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea7b9015331c2e4980573535b38c48c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 289
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b4198cc771ce04aac2928b0d04b1a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 221
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de0ee75c4bf2a9438b7792e05c546a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 219
+        width: 81
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eb6acb55cb9dd49a83188d8219bfed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_25
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 219
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3df6d9646285764982f1704929bb796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 219
+        width: 92
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81220ef3cd7fe1446870bbaf215d1800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_27
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 221
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a359945579e46a4081f1636385194c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 221
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437894d68cda4cf48b335ba35a20b832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_29
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 219
+        width: 83
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64771f6384193744a655d86d521f7bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 149
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bacdbc4276c40641a1ca7685262c57b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_31
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 149
+        width: 83
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eec35755659c147bfb5043a87574fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_32
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 151
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d10aae57af2ef42b42da53c828b27a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 145
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c11e1530cb529478ddee10762d431d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_34
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 146
+        width: 73
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528d69430e782343b452f4f8b35797b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_35
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 141
+        width: 92
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3bdb94352c23247a87008019cb7680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_36
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 145
+        width: 92
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1792b960ece810147856064c03046cb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_37
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 164
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845a6c312eafd074e9c9ee67bf67709b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_38
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 149
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21317fc8c0940154dab7bb0a0d08a3cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 103
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3822d345825355a4ca50ed451cd3752e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 37
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242f13f947419e428676439884c8d08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 72
+        width: 95
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f73fc44c19ab7247af477a943fe4d4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_42
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 72
+        width: 95
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b2b375bcbcb484a9a04d2bf1eed07f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_43
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 72
+        width: 95
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed24201b05092041b76337723a43db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_44
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 72
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec76318e195bdc4facd1292062a0c02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 72
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cea68614e7a72641b913ad426518676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_46
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 68
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9c21bcd30b18a4d9445d29a0e0f743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_47
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 72
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0030e9301ac93c242a32c35cfbe1cfac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_48
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 68
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0be903da9075c43a9822b814931677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_49
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 72
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf0a4947528dc446b7d55a7ac804051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_50
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 72
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773ed82867142f47bdec5209a3c3b05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_51
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 72
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4cda2513cae4a4da5322f243d20d18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df10cd6db21719e478aa8f774a2305da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_53
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 9
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5163b6abfff6af04aafee013197a4fcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_54
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 9
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cca49aeb2e22a49929d67606bc740f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_55
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 9
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05c9f3f952100a48875446a3e0a7423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_56
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 50
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c840b26e2b3c4eb7abffa5f3bdfde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_57
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 50
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd8716da221833428b57ef7d93ec8a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_58
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 50
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf2e8281b7d97546931035f38a59472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_59
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 46
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa1303b342c7b4882a521b918a666c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_60
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 50
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ffc6f9e4150364aa4c926b125d5e5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_61
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 50
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b5fab514ca3294da65e8d0da46dd4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_62
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 50
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a1f6d1137148479c9ed569fa49398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_63
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 46
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efbf4715d95f4d4597cd6c3eb2c05de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_64
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 26
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09791228ac148d64181b48aeed4012d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_65
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 27
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f28ed35df619744a44a46a1b1f8c61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_66
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 27
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e96b65d1d2dc4479b784b86136422d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_67
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 27
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f561c68a00614d4b81620beb21b6d70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_68
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 27
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48b844d83867a84a9a6f993b6690667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_69
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 4
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de85eb804fd15f4d908e247cd3cd4c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_70
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 4
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b2105c015d26e4b970c1ec33034c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_71
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c7e57e96ba2344996c0c919c2db99f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_72
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71779ca8c7595194e870cd57ed8daaba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_73
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132d283815630e543b1540f000261c8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_74
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 4
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9bb1cef80f8434684142c5ee489ebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_75
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 4
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b155f74eecea346b801d008db1b4a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_76
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 4
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ef37cbf2771c445aadc5e86845647e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_77
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67c1061e775c4469b64d05d0cdf725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_78
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 4
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2782ddf466f13b0418cb5194b8c28bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_79
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 4
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6369de76573502447b007d79a8ecfd0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranger_SpriteSheet_MachineGun_80
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 4
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494024d7092b1c14a94e95d56146b3c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6ea0b4dac276a50498266269155f06dc
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
