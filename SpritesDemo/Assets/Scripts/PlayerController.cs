@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,48 +6,50 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private Animator _animator;
     private Vector3 movingPos;
-    [SerializeField] private Vector3 stepMoving;
+    [SerializeField] private float stepMoving;
+    [SerializeField] private float jumpForce = 0.3f;
     private Transform _transform;
     //[SerializeField] float speed = 4.0f;
+    [SerializeField] private int maxJumpCount = 2;
+    private bool isJumping = false;
+    private bool isGrounded = false;
+    private int jumpingCount = 0;
+    public Transform groundCheck;
+    public float jumpTimeDelay = 0.5f;
+    private float jumpTimeCount = 0;
 
     // Start is called before the first frame update
     void Start()
     {
+        stepMoving = 0.05f;
         _sprite = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
         _transform = GetComponent<Transform>();
-        stepMoving = new Vector3(0.05f, 0, 0);
+        isJumping = true;
+        isGrounded = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        CheckIfGrounded();
         if (HorizontalMoving())
         {
-            //    float moveHorizontal = Input.GetAxis("Horizontal");
-            //    print(moveHorizontal);
-            //    Vector2 movement = new Vector2(moveHorizontal, 0);
-
             _animator.SetBool("isRunning", true);
-            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
                 _sprite.flipX = true;
-                movingPos = _transform.position - stepMoving;
+                movingPos = _transform.position - new Vector3(stepMoving, 0, 0);
             }
             else
             {
                 _sprite.flipX = false;
-                movingPos = _transform.position + stepMoving;
+                movingPos = _transform.position + new Vector3(stepMoving, 0, 0);
             }
             _transform.position = movingPos;
             //_rb.AddForce(movement * speed * Time.deltaTime);
 
-        }
-        else if (VerticalMoving())
-        {
-            _animator.SetTrigger("isJumping");
-            _rb.AddForce(new Vector2(0, 0.2f), ForceMode2D.Impulse);
         }
         else
         {
@@ -58,13 +57,57 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void CheckIfGrounded()
+    {
+        isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+        //Debug.Log("xxx200 isGrouned: "+ isGrounded);
+        if (isGrounded)
+        {
+            jumpingCount = 0;
+            _animator.SetBool("isJumpEnd", true);
+        }
+        else
+        {
+            _animator.SetBool("isJumpEnd", false);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (JumpingUpKeyPress())
+        {
+            Jump();
+        }
+        jumpTimeCount += Time.fixedDeltaTime;
+        //Debug.Log("xxx003 jumpTimeCount: " + jumpTimeCount);
+    }
+
+    private void Jump()
+    {
+        if ((isGrounded && jumpingCount == 0) || (jumpingCount < maxJumpCount && jumpTimeCount >= jumpTimeDelay))
+        {
+            //Debug.Log("xxx001 jump count: " + jumpingCount);
+            //Debug.Log("xxx002 isGround: " + isGrounded);
+            jumpingCount++;
+            jumpTimeCount = 0;
+
+            _animator.SetTrigger("isJumping");
+            _rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        }
+
+
+
+    }
     private bool HorizontalMoving()
     {
         return Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A);
     }
 
-    private bool VerticalMoving()
+    private bool JumpingUpKeyPress()
     {
-        return Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S);
+        return Input.GetKey(KeyCode.UpArrow)
+            || Input.GetKey(KeyCode.W)
+            || Input.GetKey(KeyCode.Space);
     }
 }
+
