@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,17 +7,22 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private Animator _animator;
     private Vector3 movingPos;
+    public float DAMGE = 20;
     [SerializeField] private float stepMoving;
     [SerializeField] private float jumpForce = 0.3f;
     private Transform _transform;
     //[SerializeField] float speed = 4.0f;
     [SerializeField] private int maxJumpCount = 2;
+    public GameObject PlayerHitted;
     private bool isJumping = false;
     private bool isGrounded = false;
     private int jumpingCount = 0;
     public Transform groundCheck;
     public float jumpTimeDelay = 0.5f;
     private float jumpTimeCount = 0;
+    private PlayerHealth playerHealth;
+
+    public float HitTime = 0.7f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +32,7 @@ public class PlayerController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
         _transform = GetComponent<Transform>();
+        playerHealth = GetComponent<PlayerHealth>();
         isJumping = true;
         isGrounded = false;
     }
@@ -108,6 +115,25 @@ public class PlayerController : MonoBehaviour
         return Input.GetKey(KeyCode.UpArrow)
             || Input.GetKey(KeyCode.W)
             || Input.GetKey(KeyCode.Space);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<HealthSystem>().TakeDamage(DAMGE);
+            playerHealth.DecreaseTimesAlives();
+
+            StartCoroutine(TurnOnPlayerHit());
+        }
+    }
+
+    IEnumerator TurnOnPlayerHit()
+    {
+        PlayerHitted.SetActive(true);
+        yield return new WaitForSeconds(HitTime);
+        PlayerHitted.SetActive(false);
     }
 }
 
