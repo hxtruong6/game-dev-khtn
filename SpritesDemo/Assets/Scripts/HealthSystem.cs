@@ -11,7 +11,6 @@ public class HealthSystem : MonoBehaviour
     Animator animator;
 
     private int currHealthBar = 0;
-
     private int MAX_HEALTH_BAR = 6;
 
     // Start is called before the first frame update
